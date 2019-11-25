@@ -1,0 +1,163 @@
+@font-face{
+    font-family: abc;
+    src: url(font/Montserrat-Regular.ttf);
+}
+a{
+    text-decoration: none;
+    color: #110942;
+}
+
+body {
+    padding: 0vw;
+    margin: 0vw;
+    font-family: abc;
+}
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    background: #FFFFFF;
+    color: #110942;
+    display: grid;
+    grid: auto / 10% 60% auto auto;
+    text-decoration: none;
+    font-size: 17px;
+    position: fixed;
+    top: 0vw;
+}
+
+
+.header .logo{
+    width: 100%;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.header .home{
+    width: 100%;
+    margin-top: 2.5vw;
+    color: #110942;
+    text-decoration: none;
+}
+
+.header .Resume{
+    width: 100%;
+    margin-top: 2.5vw;
+    color: #110942;
+    text-decoration: none;
+}
+
+.header .home a:hover{
+    border-bottom: 3px solid #110942;
+}
+.header .Resume a:hover{
+    border-bottom: 3px solid #110942;
+}
+
+/* Ask how can I keep the underline under home constant */
+/* End of Header */
+
+
+/* Footer start */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+    background-color: #110942;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns:  30% 70%;
+}
+
+.footer .social{
+    display: grid;
+    grid-template-rows: 20% 30% 30% 10%;
+    /*background-color: red;*/
+}
+/*.footer .contactme{
+    background-color: slateblue;
+}*/
+
+/*.footer .social .socialicons{
+    background-color: green;
+}*/
+.footer .social .socialicons{
+    display: grid;
+    grid: 80% / auto auto auto;
+}
+.footer .social .socialicons .Behance{
+    width: 40%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 88%; 
+}
+.Behance img{
+    width: 80%;
+    margin: auto;
+
+}
+.Instagram img{
+    width: 80%;
+    margin: auto;
+}
+.Facebook img{
+    width: 80%;
+    margin: auto;
+}
+.footer .social .socialicons .Instagram{
+    width: 40%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+.footer .social .socialicons .Facebook{
+    width: 40%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: -25%;
+}
+
+
+
+.footer .Portfolio{
+    height: 70%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 2%;
+    margin: auto;
+    text-align: center;
+    padding-left: 6%;
+}
+.assignment1 img{
+    width: 100%;
+    height: 72%;
+}
+
+.assignment2 img{
+    width: 100%; 
+}
+
+.assignment3 img{
+    width: 100%;
+    height: 72%;
+}
+
+.assignment1:hover{
+    opacity: 0.3;
+}
+
+.assignment2:hover{
+    opacity: 0.3;
+}
+
+.assignment3:hover{
+    opacity: 0.3;
+}

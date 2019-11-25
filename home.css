@@ -1,0 +1,287 @@
+@font-face{
+  font-family: abc;
+  src: url(font/Montserrat-Regular.ttf);
+}
+
+
+
+.main{
+    width: 90%;
+    margin: auto;
+    margin-top: 5vw;
+  }
+  .my_details{
+    width: 50%;
+    /*background: red;*/
+    float: left;
+    margin-top: 1vw;
+    padding-left: 2.7vw;
+    
+  }
+  p1 {
+   float: right;
+  }
+  
+  .my_photo{
+    width: 30%;
+    height: 30%;
+    /*background: green;*/
+    float: left;
+  }
+  .my_photo img{
+      width: 75%;
+      height: auto;
+      float: left;
+  }
+
+  .my_details .name{
+      margin: auto;
+      display: inline-block;
+      padding-left: 20vw;
+      font-size: small;
+  }
+  .my_details .about_me{
+      text-align: center;
+      padding-top: 0vw;
+      padding-left: 18vw;
+      display: inline-block;
+  }
+  p{
+    justify-content: space-evenly;
+  }
+
+ 
+  @font-face{
+    font-family: abc;
+    src: url(font/Montserrat-Regular.ttf);
+  }
+  
+ 
+ 
+ 
+ 
+  @media screen and (max-width: 640px) {
+     
+       a{
+        text-decoration: none;
+        color: #110942;
+    }
+    
+    body {
+        padding: 0vw;
+        margin: 0vw;
+        font-family: abc;
+    }
+    .main {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .header {
+        width: 100%;
+        background: #FFFFFF;
+        color: #110942;
+        display: grid;
+        grid: auto / 10% 60% auto auto;
+        text-decoration: none;
+        font-size: 15px;
+        top: 0vw;
+        position: fixed;
+    }
+    
+    
+    .header .logo{
+        width: 50%;
+        margin-left: 1vw;
+        margin-top: 1vw;
+    }
+    
+    .header .home{
+        width: 100%;
+        margin-top: 4vw;
+        color: #110942;
+        text-decoration: none;
+    }
+    
+    .header .Resume{
+        width: 100%;
+        margin-top: 13%;
+        color: #110942;
+        text-decoration: none;
+        position: absolute;
+        margin-left: 67vw;
+    }
+    
+    .header .home a:hover{
+        border-bottom: 3px solid #110942;
+    }
+    .header .Resume a:hover{
+        border-bottom: 3px solid #110942;
+    }
+    
+    /* Ask how can I keep the underline under home constant */
+    /* End of Header */
+    
+    
+    /* Footer start */
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 60vw;
+        background-color: #110942;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        display: grid;
+        grid-template-rows:  30% 70%;
+    }
+    
+    .footer .social{
+        display: grid;
+        grid-template-rows: 20% 30% 30% 10%;
+        position: absolute;
+        margin-top: 33%;
+        /*background-color: red;*/
+    }
+    /*.footer .contactme{
+        background-color: slateblue;
+    }*/
+    
+    /*.footer .social .socialicons{
+        background-color: green;
+    }*/
+    .footer .social .socialicons{
+        display: grid;
+        grid: 80% / auto auto auto;
+    }
+    .footer .social .socialicons .Behance{
+        width: 40%;
+        height: 100%;
+        margin-top: 5%;
+        margin-left: 88%; 
+    }
+    .Behance img{
+        width: 80%;
+        margin: auto;
+    
+    }
+    .Instagram img{
+        width: 80%;
+        margin: auto;
+    }
+    .Facebook img{
+        width: 80%;
+        margin: auto;
+    }
+    .footer .social .socialicons .Instagram{
+        width: 40%;
+        height: 100%;
+        margin-top: 5%;
+        margin-left: 32%;
+    }
+    
+    .footer .social .socialicons .Facebook{
+        width: 40%;
+        height: 100%;
+        margin-top: 5%;
+        margin-left: -25%;
+    }
+    
+    
+    
+    .footer .Portfolio{
+        height: 70%;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 2%;
+        text-align: center;
+        padding-top: 7%;
+        position: absolute;
+    }
+    .assignment1 img{
+        width: 100%;
+        height: 60%;
+    }
+    
+    .assignment2 img{
+        width: 100%; 
+        height: 60%;
+
+    }
+    
+    .assignment3 img{
+        width: 100%;
+        height: 60%;
+    }
+    
+    .assignment1:hover{
+        opacity: 0.3;
+    }
+    
+    .assignment2:hover{
+        opacity: 0.3;
+    }
+    
+    .assignment3:hover{
+        opacity: 0.3;
+    }
+
+
+
+
+
+
+
+
+.main{
+  width: 100%;
+  margin: auto;
+  margin-top: 0vw;
+}
+.my_details{
+  width: 32%;
+  float: left;
+  margin-top: 1vw;
+  padding-left: 5vw;
+}
+p1 {
+ float: left;
+}
+
+.my_photo{
+  width: 30%;
+  height: 30%;
+  float: left;
+}
+.my_photo img{
+    width: 33%;
+    height: auto;
+    position: absolute;
+    margin-top: 43%;
+    margin-right: 50vw;
+  
+}
+
+.my_details .name{
+    margin: auto;
+    display: inline-block;
+    padding-left: 15vw;
+    font-size: small;
+    position: absolute;
+    margin-top: 20%;
+    font-size: 3vw;
+}
+.my_details .about_me{
+    text-align: center;
+    margin: auto;
+    margin-top: 85%;
+    position: absolute;
+    font-size: 3.5vw;
+    padding-left: 20vw;
+}
+p{
+  justify-content: space-evenly;
+}
+    
+    }
